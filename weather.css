@@ -1,0 +1,108 @@
+/* Set background color */
+body {
+    background-color: #f2f2f2;
+    background-image: url("weather1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+  }
+  
+  /* Set navbar color */
+  .navbar {
+    background-color: #55acee;
+    color: #fff;
+  }
+  
+  /* Set navbar brand color */
+  .navbar-brand {
+    color: rgb(0, 98, 255);
+    font-weight: 100px;
+  }
+  
+  /* Set navbar link color */
+  .nav-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Set active navbar link color */
+  .nav-link.active {
+    color: #000000;
+    /* background-color: #007bff; */
+    border-radius: 0.25rem;
+  }
+  
+  /* Set dropdown menu color */
+  .dropdown-menu {
+    background-color: rgb(108, 219, 244);
+  }
+  
+  /* Set dropdown item hover color */
+  .dropdown-item:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Set card color and border */
+  .card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Set card hover effect */
+  .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Set card header color */
+  .card-header {
+    background-color: #173a8d;
+    color: #fff;
+  }
+  
+  /* Set card title color */
+  .card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #173a8d;
+  }
+  
+  /* Set card subtitle color */
+  .card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* Set card text color */
+  .card-text {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Set card list color */
+  .card ul {
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Set card list item color */
+  .card ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Set card list item label color */
+  .card ul li::before {
+    content: "- ";
+    color: #6c757d;
+  }
+  
+  /* Set container padding */
+  .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
